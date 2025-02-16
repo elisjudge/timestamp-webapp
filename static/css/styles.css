@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+#timestampContainer {
+    margin-top: 20px;
+}
+
+#timestampContainer div {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+#timestampContainer div:nth-child(odd) {
+    background-color: #eeeeee; /* Alternate row color */
+    font-weight: bold;
+}
